@@ -1,6 +1,8 @@
 Loops - Parte 1
 ===
 
+![](https://media.giphy.com/media/l3fQwP0Fv7ek6uPWU/giphy.gif)
+
 Mateus Chagas Sousa
 github.com/matchs
 

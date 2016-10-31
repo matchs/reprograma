@@ -10,11 +10,19 @@ github.com/matchs
 ```
 Um conjunto de coisas indexado por um número
 ```
+
+---
+# OK, travei no indexado...
+![](https://images.gr-assets.com/hostedimages/1380222758ra/425207.gif)
+
+---
+# Indexado...
+Quer dizer, organizado com um índice.
+Basta pensar no número da página de um livro. Aquilo é um índice que te ajuda e encontrar o conteúdo que você procura.
+
 --
 
-### Indexado?
-Isso quer dizer, organizado com um índice.
-Basta pensar no número da página de um livro. Aquilo é um índice que te ajuda e encontrar o conteúdo que você procura.
+![](https://media.giphy.com/media/UrdhOc8aCtc2s/giphy.gif)
 
 ---
 # Como funciona um array:
@@ -87,7 +95,8 @@ e retorne um array com os elementos multiplicados por 2
 ---
 # Operações com arrays
 
-É possível fazer operações sobre arrays. As operações possíveis são:
+É possível fazer operações sobre arrays. Algumasdas  operações possíveis são:
+- push
 - map
 - filter
 - reduce
@@ -96,19 +105,35 @@ Para executar uma operação sobre um array é necessário chamar: `array` `.` `
 
 ***Exemplo:***
 ```javascript
+array.push(...);
 array.map(...);
 array.filter(...);
 array.reduce(...);
 ```
+---
+# .push
+
+O operador `push` serve para adicionar um novo elemento a um array
+
+***Exemplo:***
+```
+var x = [1,2];
+
+x.push(3);
+
+console.log(x);//[1,2,3]
+```
 
 ---
 # .map
-
+	
 O operador `map` server para transformar um array em outro array com o mesmo número de elementos.
+O `map` recebe uma função que vai ser aplicada sobre cada um dos elementos.
 
-O `map` recebe um função que vai ser aplicada sobre cada um dos elementos.
+![](https://media.giphy.com/media/3o72F5xIDp76AZifBe/giphy.gif)
 
-***Exemplo*:**
+---
+# Exemplo de map
 ```javascript
 [1, 2, 3, 4].map(function(e) {
 	return e + 2;
@@ -130,9 +155,44 @@ function multiplicaPor2(arr) {
     return resultado;
 }
 ```
-
----
-# .reduce
 ---
 # .filter
+
+O operador `filter` ***filtra*** elementos indesejados de um array
+O `filter` recebe uma função que vai ser aplicada sobre cada elemento e deve retornar `true` ou `false`.
+
+![](https://media.giphy.com/media/11O6jj01F5GjDy/giphy.gif)
+
 ---
+# Exemplo de `filter`
+```javascript
+[1,2,30,40].filter(function(e) {
+    return e < 10;
+});
+
+// [1, 2]
+```
+---
+# Exercício #3
+
+***15 minutos***
+```
+Escreva uma função que receba um array de números 
+e retorne um array somente com números pares
+```
+---
+# Solução Exercício #3
+```javascript
+function somentePares(arr) {
+    var resultado = arr.filter(function(e) {
+    	var ehPar = e % 2 == 0;
+    	return ehPar;
+    });
+    
+    return resultado;
+}
+```
+---
+
+O operador .reduce será dado ao final, se tivermos tempo, mas fica de exercício para pesquisar em casa!
+===

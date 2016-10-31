@@ -28,8 +28,12 @@ Como deixar nossos programas mais *poderosos* (ou seja, ***complexos***):
 - Praticar ***MUITO***
 - Vamos fazer MUITOS exercícios
 
+	![](https://media.giphy.com/media/h8waGdvH75T44/giphy.gif)
+
 ---
 # Revisando - Variáveis
+
+
 
 ```javascript
 var x = 10;
@@ -45,10 +49,8 @@ var z = x + y; // 19
 ```javascript
 if (condicional) {
   // Faz algo se a condição passa
-
 } else {
   // Faz algo se falhar
-
 }
 ```
 
@@ -61,6 +63,11 @@ function nomeDaFuncao(p1, ..., pN) {
 
 }
 ```
+
+---
+# TODO MUNDO PRONTO?
+--
+![](http://i38.photobucket.com/albums/e104/brittany_todd1/im%20ready_zpsm8v8y7wh.gif)
 
 ---
 # Exercício #1
@@ -89,3 +96,6 @@ console.log('Mateus');
 ```
 Escreva seu nome 1000x no console
 ```
+---
+# Waaaaaaaaaaat?
+![](https://media.giphy.com/media/IUp9WRHyCwUEg/giphy.gif)
