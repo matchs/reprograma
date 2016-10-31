@@ -8,7 +8,7 @@ github.com/matchs
 # Quem sou eu!?
 - Programador desde 2010
 - Formado em Ciências da Computação pela UFBA
-- Sempre trabalhei com Start-ups (JusBrasil, SaúdeVianet e algumas outras falidas)
+- Sempre trabalhei com Start-ups (JusBrasil, SaúdeVianet entre outras)
 - Hoje: Programador no ***GuiaBolso***
 
 ---
