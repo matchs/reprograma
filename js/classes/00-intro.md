@@ -15,6 +15,8 @@ github.com/matchs
 # O que vamos estudar?
 Como deixar nossos programas mais *poderosos* (ou seja, ***complexos***):
 
+- Arrays
+- Objetos
 - Repetições
 - Formulários
 - Eventos
@@ -31,7 +33,9 @@ Como deixar nossos programas mais *poderosos* (ou seja, ***complexos***):
 
 ```javascript
 var x = 10;
+
 var y = 9;
+
 var z = x + y; // 19
 ```
 
@@ -41,8 +45,10 @@ var z = x + y; // 19
 ```javascript
 if (condicional) {
   // Faz algo se a condição passa
+
 } else {
   // Faz algo se falhar
+
 }
 ```
 
@@ -52,6 +58,7 @@ if (condicional) {
 ```javascript
 function nomeDaFuncao(p1, ..., pN) {
   // Faz alguma coisa
+
 }
 ```
 
